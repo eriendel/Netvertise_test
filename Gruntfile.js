@@ -64,7 +64,7 @@ module.exports = function(grunt){
                     'public/vendor/angular/angular.min.js',
                     'public/vendor/angular-resource/angular-resource.min.js',
                     'public/vendor/angular-route/angular-route.min.js',
-                    'public/vendor/angular-csv-import/dist/angular-csv-import.min.js',
+                    'public/vendor/angular-file-upload/dist/angular-file-upload.min.js',
                 ],
                 dest:'public/dist/js/vendor.js'
             }
