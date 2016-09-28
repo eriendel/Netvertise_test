@@ -6,8 +6,8 @@ angular.module('app').config(['$routeProvider', '$locationProvider', function($r
     });
     $routeProvider
         .when('/', {
-            templateUrl:'public/app/home/home.html',
-            controller:'ntHomeCtrl'
+            templateUrl:'public/app/home/snapshotTable.html',
+            controller:'ntSnapshotTableCtrl'
         })
         .otherwise({
             redirectTo: '/'

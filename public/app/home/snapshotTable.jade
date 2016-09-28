@@ -1,0 +1,11 @@
+section.content
+    .col-sm-1
+    .col-sm-10
+        table.nt-table
+            thead
+                tr
+                    th(ng-repeat="column in snapshotHeader", class="col-sm-{{columnSize()}}").semibold {{column}}
+            tbody
+                tr(ng-repeat="snapshotRow in snapshotData")
+                    td(ng-repeat="column in snapshotRow", class="col-sm-{{columnSize()}}") {{column}}
+    .col-sm-1

@@ -32,7 +32,7 @@ module.exports = function(grunt){
             }
         },
         clean:{
-            dist:['public/dist']
+            dist:['public/dist', 'index.html']
         },
         ngtemplates:{
             app:{

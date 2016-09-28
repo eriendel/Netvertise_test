@@ -1,0 +1,19 @@
+
+<section class="content">
+  <div class="col-sm-1"></div>
+  <div class="col-sm-10">
+    <table class="nt-table">
+      <thead>
+        <tr>
+          <th ng-repeat="column in snapshotHeader" class="col-sm-{{columnSize()}} semibold">{{column}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="snapshotRow in snapshotData">
+          <td ng-repeat="column in snapshotRow" class="col-sm-{{columnSize()}}">{{column}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-sm-1"></div>
+</section>

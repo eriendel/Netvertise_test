@@ -2,7 +2,7 @@ var express = require('express');
 var path = require('path');
 
 var rootPath = path.normalize(__dirname + '/');
-var port = 3000;
+var port = 8000;
 
 var app = express();
 var server = require('http').createServer(app);
