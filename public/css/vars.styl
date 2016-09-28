@@ -1,0 +1,105 @@
+red = #f11e1f
+green = #1c9a19
+yellow = #ffcc55
+black = #1a1516
+darkergray = #404041
+darkgray = #474646
+gray = #a4a2a3
+lightgray = #f1f0f0
+lightergray = #fafafa
+white = #ffffff
+
+.red
+  color: red
+.green
+  color: green
+.black
+  color: black
+.darkergray
+  color darkergray
+.darkgray
+  color darkgray
+.gray
+  color gray
+.lightgray
+  color gray
+.lightergray
+  color gray
+.white
+  color white
+  
+.bg-red
+  background-color: red
+.bg-green
+  background-color: green
+.bg-black
+  background-color: black
+.bg-darkergray
+  background-color darkergray
+.bg-darkgray
+  background-color darkgray
+.bg-gray
+  background-color gray
+.bg-lightgray
+  background-color gray
+.bg-lightergray
+  background-color gray
+.bg-white
+  background-color white
+
+.light
+  font-weight: 300;
+.normal
+  font-weight: 400;
+.semibold
+  font-weight: 600;
+.extrabold
+  font-weight: 800;
+
+.h0
+  font-size: 36pt !important
+.h1
+  font-size: 28pt !important
+.h2
+  font-size: 22pt !important
+.h3
+  font-size: 15pt !important
+.h4
+  font-size: 13pt !important
+.h5
+  font-size: 11pt !important
+.h6
+  font-size: 9pt !important
+.h7
+  font-size: 8pt !important
+
+.text-center
+  text-align: center
+
+.capital
+  text-transform uppercase
+
+.relative
+  position: relative
+
+.search-highlight
+  background-color: yellow
+
+placeholder-color(color)
+  &::-webkit-input-placeholder
+    color color !important
+  &:-moz-placeholder  /* Firefox 18- */
+    color color !important
+  &::-moz-placeholder  /* Firefox 19+ */
+    color color !important
+  &:-ms-input-placeholder
+    color color !important
+
+button(button-color, margin)
+  @extend .h6
+  margin margin
+  color white
+  height: 35px
+  border: none
+  background-color: button-color
+  padding: 10px 20px

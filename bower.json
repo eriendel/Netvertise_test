@@ -1,0 +1,17 @@
+{
+  "name": "NetvertiseTest",
+  "version": "0.0.0",
+  "authors": [
+    "Joseph <eriendel97@gmail.com>"
+  ],
+  "description": "NetvertiseTest",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angularjs": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "jquery": "~2.1.4",
+    "angular-csv-import": "^0.0.36"
+  }
+}
